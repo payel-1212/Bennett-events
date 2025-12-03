@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration | Bennett University</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">Bennett Events</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+
+
+        <div class="form-header">
+            <h1>Register for Events</h1>
+            <p>Select any event and submit details.</p>
+        </div>
+
+
+        <form id="sheetdb-form">
+
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="Name" required placeholder="Enter your full name">
+            </div>
+
+
+            <div class="form-group">
+                <label>University Email</label>
+                <input type="email" name="Email" required placeholder="yourname@bennett.edu.in">
+            </div>
+
+
+            <div class="form-group">
+                <label>Course</label>
+                <input type="text" name="Course" required placeholder="BCA, B.Tech, MBA etc.">
+            </div>
+
+
+            <div class="form-group">
+                <label>Year</label>
+                <select name="Year" required>
+                    <option value="">Select Year</option>
+                    <option value="1st Year">1st Year</option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="4th Year">4th Year</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" name="Phone" required placeholder="Enter phone number">
+            </div>
+
+
+            <!-- UPDATED DROPDOWN -->
+            <div class="form-group">
+                <label>Event</label>
+                <select name="Event" required>
+                    <option value="">Select Event</option>
+                    <option value="Christmas 2025">Christmas 2025</option>
+                    <option value="Euphoria 2026">Euphoria 2026</option>
+                    <option value="Fresher's Night">Fresher's Night 2026</option>
+                    <option value="DJ Night 2026">DJ Night 2026</option>
+                    <option value="Halloween 2026">Halloween 2026</option>
+                    <option value="Sufi Night 2026">Sufi Night 2026</option>
+                </select>
+            </div>
+
+
+            <button type="submit" class="submit-btn">Submit Registration</button>
+
+
+        </form>
+
+
+    </div>
+
+
+    <script src="form.js"></script>
+</body>
+
+</html>

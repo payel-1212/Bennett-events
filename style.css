@@ -122,12 +122,24 @@
 
 .cta {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
     background: #111c4e;
     color: white;
 }
 
+.cta h2 {
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.cta p {
+    margin-bottom: 25px;   /* This prevents overlap */
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
 .cta-btn {
+    display: inline-block;
     padding: 12px 30px;
     background: #ffcc33;
     color: #000;
@@ -223,5 +235,6 @@
         font-size: 0.9rem;
     }
 }
+
 
 
